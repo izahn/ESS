@@ -1445,6 +1445,11 @@ Good for evaluating ESS code."
   :type 'hook
   :group 'ess-sas)
 
+(defcustom stata-mode-hook nil
+  "Hook to run when entering stata mode."
+  :type 'hook
+  :group 'ess-stata)
+
 (defcustom ess-pdf-viewer-pref nil
   "External pdf viewer you like to use from ESS.
 Can be a string giving a name of the program or a list with car
